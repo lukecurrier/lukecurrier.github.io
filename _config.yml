@@ -42,7 +42,7 @@ social-network-links:
   email: "lukescurrier@gmail.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: 
-  github: dastardi
+  github: lukecurrier
   twitter: lukescurrier
 #  patreon: 
 #  youtube: 
@@ -81,7 +81,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "dastardi.github.io"
+url-pretty: "lukecurrier.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
