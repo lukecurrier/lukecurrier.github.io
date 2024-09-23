@@ -4,6 +4,8 @@ title: PDF Storage
 ---
 <a href="/assets/files/resume.pdf" target=None>Resume</a><br>
 
+<a href="/assets/files/introalgo.pdf" target=None>Intro to Algorithms</a><br>
+
 <a href="/assets/files/daodejing-hansen.pdf" target=None>Dao de Jing - Hansen Translation</a><br>
 
 <a href="/assets/files/daodejing-henricks.pdf" target=None>Dao de Jing - Henricks Translation</a><br>
@@ -12,13 +14,11 @@ title: PDF Storage
 
 <a href="/assets/files/trustai-ml-intro.pdf" target=None>ML Review (from CS 4973)</a><br>
 
-<a href="/assets/files/alteredtraits.pdf" target=None>Altered Traits</a><br>
-
-<a href="/assets/files/introalgo.pdf" target=None>Intro to Algorithms</a><br>
-
 <a href="/assets/files/sitaware.pdf" target=None>Situational Awareness</a><br>
 
 <a href="/assets/files/mml.pdf" target=None>Mathematics of Machine Learning</a><br>
+
+<a href="/assets/files/alteredtraits.pdf" target=None>Altered Traits</a><br>
 
 <a href="/assets/files/linalg.pdf" target=None>Linear Algebra Review</a><br>
 
