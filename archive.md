@@ -4,6 +4,14 @@ title: PDF Storage
 ---
 <a href="/assets/files/resume.pdf" target=None>Resume</a><br>
 
+<a href="/assets/files/spitefulness.pdf" target=None>The Psychology of Spite and the Measurement of Spitefulness</a><br>
+
+<a href="/assets/files/incentives.pdf" target=None>The Formation of Incentive Mechanisms in Different Economic Systems</a><br>
+
+<a href="/assets/files/fairness.pdf" target=None>The Evolution of Fairness through Spite</a><br>
+
+<a href="/assets/files/moralspite.pdf" target=None>Spitefulness and Moral Values</a><br>
+
 <a href="/assets/files/introalgo.pdf" target=None>Intro to Algorithms</a><br>
 
 <a href="/assets/files/daodejing-hansen.pdf" target=None>Dao de Jing - Hansen Translation</a><br>
