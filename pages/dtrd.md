@@ -7,4 +7,4 @@ As a project that started as a mere summer curiosity and grew into a class-proje
 
 I conducted this endeavor in concert with Rory Smead, a professor with whom I've taken three classes, been a <a href="/pages/ta/">teaching assistant</a>, and participated in a multidisciplinary reading group with for more than a year - his knowledge of game theory and his guidance towards interesting topics and useful functionalities has been instrumental for the project. 
 
-The codebase and a guide for how to use it can be found <a href="https://github.com/Dastardi/GameTheory" target="blank">**here**</a>! If you have questions/comments, I'd love to hear them - feel free to reach out via any of the links below.
+The codebase and a guide for how to use it can be found <a href="https://github.com/lukecurrier/GameTheory" target="blank">**here**</a>! If you have questions/comments, I'd love to hear them - feel free to reach out via any of the links below.
