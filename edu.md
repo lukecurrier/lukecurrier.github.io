@@ -13,7 +13,7 @@ subtitle: My academic journey so far
       <b><i>BS in Computer Science and Philosophy</i></b><br>
       3.87 GPA, Dean's List, Northeastern Honors Society<br>
       <i>Activities:</i> <a href="/pages/dh">A Cappella</a>, Ultimate Frisbee, <a href="/pages/ambassadors">Husky Ambassadors</a>, <a href="/pages/rossetti">Rossetti Research Group</a><br>
-      <i>Focused Classes:</i> Advanced Logic, Human-Computer Interaction, Machine Learning & Data Mining, Mixed Reality<br>
+      <i>Focused Classes:</i> Algorithms (Graduate), Engineering LLM-Integrated Systems, Trustworthy Generative AI, Object-Oriented Design<br>
     </p>
   </div>
 
