@@ -39,7 +39,7 @@ subtitle: My academic journey so far
       <a href="/pages/ucd"><h2>University College Dublin</h2></a>
       <b><i>General Education Study Abroad</i></b><br>
       <i>Taken in Fall 2024</i><br>
-      <i>Focused Classes:</i> Irish Folklore, Foundational First-Year Courses <br>
+      <i>Focused Classes:</i> Foundational First-Year Courses <br>
     </p>
   </div>
 
