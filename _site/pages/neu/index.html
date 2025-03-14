@@ -24,8 +24,6 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="Luke Currier" href="http://localhost:4000/feed.xml">
-  
 
   
 
@@ -139,7 +137,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/assets/files/resume.pdf" style="text-decoration: none;">Resume</a>
-          </li></ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
   </div>
 
   
@@ -155,6 +159,230 @@
   
 
 </nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "It&#39;s Monday Again", \
+          "desc"     : "It&#39;s Monday Again", \
+          "category" : "", \
+          "url"      : "/2025-02-24-its-monday-again/", \
+          "date"     : "February 24, 2025" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "Being a Husky Ambassador", \
+          "desc"     : "Being a Husky Ambassador", \
+          "category" : "page", \
+          "url"      : "/pages/ambassadors/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "PDF Storage", \
+          "desc"     : "PDF Storage", \
+          "category" : "page", \
+          "url"      : "/archive/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Boom Capital Ventures", \
+          "desc"     : "Boom Capital Ventures", \
+          "category" : "page", \
+          "url"      : "/pages/boom/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Distilled Harmony", \
+          "desc"     : "Distilled Harmony", \
+          "category" : "page", \
+          "url"      : "/pages/dh/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Replicator Dynamics", \
+          "desc"     : "Replicator Dynamics", \
+          "category" : "page", \
+          "url"      : "/pages/dtrd/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Education", \
+          "desc"     : "Education", \
+          "category" : "page", \
+          "url"      : "/edu/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Forex ML Analysis", \
+          "desc"     : "Forex ML Analysis", \
+          "category" : "page", \
+          "url"      : "/pages/forex/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Hey, I&#39;m Luke", \
+          "desc"     : "Hey, I&#39;m Luke", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "LearnPrompting", \
+          "desc"     : "LearnPrompting", \
+          "category" : "page", \
+          "url"      : "/pages/lp/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "My Music", \
+          "desc"     : "My Music", \
+          "category" : "page", \
+          "url"      : "/pages/music/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Northeastern University", \
+          "desc"     : "Northeastern University", \
+          "category" : "page", \
+          "url"      : "/pages/neu/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "OutsideLLMS", \
+          "desc"     : "OutsideLLMS", \
+          "category" : "page", \
+          "url"      : "/pages/ollms/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Peer Counselling", \
+          "desc"     : "Peer Counselling", \
+          "category" : "page", \
+          "url"      : "/pages/peercounsel/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Personal Projects", \
+          "desc"     : "Personal Projects", \
+          "category" : "page", \
+          "url"      : "/personal/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Posts", \
+          "desc"     : "Posts", \
+          "category" : "page", \
+          "url"      : "/posts/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Work History", \
+          "desc"     : "Work History", \
+          "category" : "page", \
+          "url"      : "/professional/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Rossetti Research Group", \
+          "desc"     : "Rossetti Research Group", \
+          "category" : "page", \
+          "url"      : "/pages/rossetti/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Teaching Logic", \
+          "desc"     : "Teaching Logic", \
+          "category" : "page", \
+          "url"      : "/pages/ta/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "desc"     : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Travel", \
+          "desc"     : "Travel", \
+          "category" : "page", \
+          "url"      : "/pages/travel/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "University College Dublin", \
+          "desc"     : "University College Dublin", \
+          "category" : "page", \
+          "url"      : "/pages/ucd/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "University of Technology Sydney", \
+          "desc"     : "University of Technology Sydney", \
+          "category" : "page", \
+          "url"      : "/pages/uts/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Wayfair", \
+          "desc"     : "Wayfair", \
+          "category" : "page", \
+          "url"      : "/pages/wayfair/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Woodside Priory", \
+          "desc"     : "Woodside Priory", \
+          "category" : "page", \
+          "url"      : "/pages/wps/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
 
 
 

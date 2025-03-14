@@ -24,8 +24,6 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="Luke Currier" href="http://localhost:4000/feed.xml">
-  
 
   
 
@@ -139,7 +137,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/assets/files/resume.pdf" style="text-decoration: none;">Resume</a>
-          </li></ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
   </div>
 
   
@@ -155,6 +159,230 @@
   
 
 </nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "It&#39;s Monday Again", \
+          "desc"     : "It&#39;s Monday Again", \
+          "category" : "", \
+          "url"      : "/2025-02-24-its-monday-again/", \
+          "date"     : "February 24, 2025" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "Being a Husky Ambassador", \
+          "desc"     : "Being a Husky Ambassador", \
+          "category" : "page", \
+          "url"      : "/pages/ambassadors/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "PDF Storage", \
+          "desc"     : "PDF Storage", \
+          "category" : "page", \
+          "url"      : "/archive/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Boom Capital Ventures", \
+          "desc"     : "Boom Capital Ventures", \
+          "category" : "page", \
+          "url"      : "/pages/boom/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Distilled Harmony", \
+          "desc"     : "Distilled Harmony", \
+          "category" : "page", \
+          "url"      : "/pages/dh/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Replicator Dynamics", \
+          "desc"     : "Replicator Dynamics", \
+          "category" : "page", \
+          "url"      : "/pages/dtrd/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Education", \
+          "desc"     : "Education", \
+          "category" : "page", \
+          "url"      : "/edu/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Forex ML Analysis", \
+          "desc"     : "Forex ML Analysis", \
+          "category" : "page", \
+          "url"      : "/pages/forex/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Hey, I&#39;m Luke", \
+          "desc"     : "Hey, I&#39;m Luke", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "LearnPrompting", \
+          "desc"     : "LearnPrompting", \
+          "category" : "page", \
+          "url"      : "/pages/lp/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "My Music", \
+          "desc"     : "My Music", \
+          "category" : "page", \
+          "url"      : "/pages/music/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Northeastern University", \
+          "desc"     : "Northeastern University", \
+          "category" : "page", \
+          "url"      : "/pages/neu/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "OutsideLLMS", \
+          "desc"     : "OutsideLLMS", \
+          "category" : "page", \
+          "url"      : "/pages/ollms/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Peer Counselling", \
+          "desc"     : "Peer Counselling", \
+          "category" : "page", \
+          "url"      : "/pages/peercounsel/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Personal Projects", \
+          "desc"     : "Personal Projects", \
+          "category" : "page", \
+          "url"      : "/personal/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Posts", \
+          "desc"     : "Posts", \
+          "category" : "page", \
+          "url"      : "/posts/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Work History", \
+          "desc"     : "Work History", \
+          "category" : "page", \
+          "url"      : "/professional/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Rossetti Research Group", \
+          "desc"     : "Rossetti Research Group", \
+          "category" : "page", \
+          "url"      : "/pages/rossetti/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Teaching Logic", \
+          "desc"     : "Teaching Logic", \
+          "category" : "page", \
+          "url"      : "/pages/ta/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "desc"     : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Travel", \
+          "desc"     : "Travel", \
+          "category" : "page", \
+          "url"      : "/pages/travel/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "University College Dublin", \
+          "desc"     : "University College Dublin", \
+          "category" : "page", \
+          "url"      : "/pages/ucd/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "University of Technology Sydney", \
+          "desc"     : "University of Technology Sydney", \
+          "category" : "page", \
+          "url"      : "/pages/uts/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Wayfair", \
+          "desc"     : "Wayfair", \
+          "category" : "page", \
+          "url"      : "/pages/wayfair/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Woodside Priory", \
+          "desc"     : "Woodside Priory", \
+          "category" : "page", \
+          "url"      : "/pages/wps/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
 
 
 
@@ -236,20 +464,20 @@
 
       <h3 id="who">Who?</h3>
 
-<p>I’m a 22-year old senior at Northeastern University studying computer science.  My academic focus is AI and human-computer interaction, and I’ve spent time in <a href="/pages/dtrd">game theory</a>, philosophy, <a href="/pages/forex">economics</a>, and psychology.</p>
+<p>I’m a 22-year old senior at Northeastern University studying computer science.  My academic focus is AI and game theory, but I’ve designed my degree around a symbolic systems program, meaning that I’ve spent time in philosophy, mathematics, and psychology as well.</p>
 
-<p>I’ve done a few cool things in my professional life so far, like writing code for bidding on Google adwords at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source startups for a <a href="/pages/boom">venture capital firm</a>, and running <a href="/pages/ollms">AI hackathon events</a> in San Francisco. Even as the most junior guy, I’m used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.</p>
+<p>I’ve done a few cool things in my professional life so far, like writing code for bidding on Google adwords at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source startups for a <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I’m used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.</p>
 
 <p>I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence.</p>
 
-<p>In my free time I make music, read sci-fi novels, and play ultimate frisbee.</p>
+<p>In my free time I make music, travel, read sci-fi, and play ultimate frisbee.</p>
 
 <div class="favorite-list">
   <span>Some favorites of mine:</span><br />
-  <span>- YouTubers: <a href="https://www.youtube.com/c/SebastianLague" target="_blank">Sebastian Lague</a>, <a href="https://www.youtube.com/@xkcd_whatif" target="_blank">xkcd's What If?</a>, <a href="https://www.youtube.com/@CharlesCornellStudios" target="_blank">Charles Cornell</a>, <a href="https://www.youtube.com/@veritasium" target="_blank">Veritasium</a></span><br />
-  <span>- Books: The Hitchhiker's Guide to the Galaxy, Dune</span><br />
-  <span>- Music: Jacob Collier, The Beatles</span><br />
-  <span>- Films: The Matrix, Interstellar, Tombstone</span>
+  <span>- YouTubers: <a href="https://www.youtube.com/c/SebastianLague" target="_blank">Sebastian Lague</a>, <a href="https://www.youtube.com/c/theprimeagen" target="_blank">ThePrimagen</a>, <a href="https://www.youtube.com/@CharlesCornellStudios" target="_blank">Charles Cornell</a>, <a href="https://www.youtube.com/@veritasium" target="_blank">Veritasium</a></span><br />
+  <span>- Books: The Hitchhiker's Guide to the Galaxy, Dune, The Way of Kings</span><br />
+  <span>- Music: Jacob Collier, Anderson.paak, Vulfpeck</span><br />
+  <span>- Films: The Matrix, Interstellar, Baby Driver</span>
 </div>
 
 

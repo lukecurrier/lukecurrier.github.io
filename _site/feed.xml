@@ -5,11 +5,21 @@
     <title>Luke Currier</title>
     
     
-    <description>Details of a future legend</description>
-    
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+      <item>
+        <title>It's Monday Again</title>
+        <description>
+          
+          This is an empty page
+
+        </description>
+        <pubDate>Mon, 24 Feb 2025 21:43:03 +0000</pubDate>
+        <link>http://localhost:4000/2025-02-24-its-monday-again/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025-02-24-its-monday-again/</guid>
+      </item>
     
   </channel>
 </rss>

@@ -14,7 +14,7 @@ I’ve done a few cool things in my professional life so far, like writing code 
 
 I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence. 
 
-In my free time I make music, read sci-fi novels, and play ultimate frisbee. 
+In my free time I make music, travel, read sci-fi, and play ultimate frisbee. 
 
 <div class="favorite-list">
   <span>Some favorites of mine:</span><br>
