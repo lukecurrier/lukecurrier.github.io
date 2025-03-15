@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    beautiful-jekyll-theme (6.0.1)
+    lukecurrier-jekyll-theme (1.0.0)
       jekyll (~> 3.9.3)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.4)
@@ -80,10 +80,10 @@ PLATFORMS
 
 DEPENDENCIES
   base64
-  beautiful-jekyll-theme!
   bigdecimal
   bundler (>= 1.16)
   csv
+  lukecurrier-jekyll-theme!
   rake (~> 12.0)
 
 BUNDLED WITH
