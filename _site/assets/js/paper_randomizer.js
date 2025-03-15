@@ -1,3 +1,5 @@
+// RANDOM SIDE THING I'M WORKING ON
+
 // list of PDF files
 const pdfFiles = [
     //'assets/papers/document1.pdf',
@@ -20,3 +22,4 @@ document.getElementById('random-pdf-button').addEventListener('click', () => {
     const randomPdf = getRandomPdf();
     displayPdf(randomPdf);
 });
+``
