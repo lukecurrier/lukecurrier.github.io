@@ -1012,7 +1012,7 @@ pre {
 }
 
 /* Search bar */
-#beautifuljekyll-search-overlay {
+#search-overlay {
   display: none;
   z-index: 999999;
   position: fixed;
