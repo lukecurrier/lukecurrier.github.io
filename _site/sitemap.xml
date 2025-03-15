@@ -8,9 +8,6 @@
 <loc>http://localhost:4000/pages/ambassadors/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/archive/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/pages/boom/</loc>
 </url>
 <url>
@@ -18,9 +15,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/dtrd/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/edu/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pages/forex/</loc>
@@ -54,6 +48,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/rossetti/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/school/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/storage/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pages/ta/</loc>
