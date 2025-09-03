@@ -6,6 +6,18 @@ subtitle: Highlights of my professional career
 
 ***
 
+<a href="/pages/apple"><img src="/assets/img/apple.jpg" align="right" width="400" height="100"></a>
+
+<div style="text-align: right;">
+    <p>
+      <a href="/pages/apple"><h2>Apple</h2></a>
+      <b>June 2025 - Present</b> <br> <b><i>Software Engineer</i></b><br>
+      I own a core automation product for Apple's backend connected devices team, working on early-stage pathways for anything involving devices communicating with each other. 
+    </p>
+  </div>
+
+***
+
 <a href="/pages/wayfair"><img src="/assets/img/wayfair.png" align="left" width="400" height="100"></a>
 
 <div style="text-align: right;">

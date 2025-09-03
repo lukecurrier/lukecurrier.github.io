@@ -3,6 +3,8 @@ layout: page
 title: PDF Storage
 ---
 
+<a href="/assets/files/jazz-handbook.pdf" target=None>Jazz Handbook</a><br>
+
 <a href="/assets/files/cantfindme.pdf" target=None>Can't Find Me</a><br>
 
 <a href="/assets/files/introalgo.pdf" target=None>Algo Textbook</a><br>
