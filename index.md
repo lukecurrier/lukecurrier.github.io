@@ -8,7 +8,7 @@ cover-img:
 ---
 ### Who?
 
-I’m 22 years old and work at Apple as a software engineer. I play in a band (guitar/vocals), play in tennis tournaments in the socal area, and make a mean sticky toffee pudding. My academic focus at my alma mater Northeastern was AI and game theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent hard research time in philosophy, mathematics, and psychology as well. 
+I’m 22 years old and work at Apple as a software engineer. I play in a band (guitar/vocals), compete in tennis tournaments in the socal area, and make a mean sticky toffee pudding. My academic focus at my alma mater Northeastern was AI and game theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent hard research time in philosophy, mathematics, and psychology as well. 
 
 I’ve done a few cool things in my professional life so far, such as owning a key product on a backend team doing Connected Devices at Apple, writing code for bidding on Google adwords at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
 
