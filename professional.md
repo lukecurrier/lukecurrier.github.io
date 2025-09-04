@@ -6,9 +6,9 @@ subtitle: Highlights of my professional career
 
 ***
 
-<a href="/pages/apple"><img src="/assets/img/apple.png" align="right" width="300" height="225"></a>
+<a href="/pages/apple"><img src="/assets/img/apple.jpg" align="right" width="300" height="225"></a>
 
-<div style="text-align: right;">
+<div style="text-align: left;">
     <p>
       <a href="/pages/apple"><h2>Apple</h2></a>
       <b>June 2025 - Present</b> <br> <b><i>Software Engineer</i></b><br>
