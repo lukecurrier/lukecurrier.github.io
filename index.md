@@ -18,7 +18,7 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
   <span>Some favorites of mine:</span><br>
   <span>- Podcasts: <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank>Song Exploder</a>, <a href="https://open.spotify.com/show/11yAA5VXm0IJeZoKL4Fqah?si=2ac3b43752b84d2c" target=_blank>Money Stuff</a>, <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank>Dear Hank and John</a></span><br>
   <span>- YouTubers: <a href="https://www.youtube.com/c/SebastianLague" target=_blank>Sebastian Lague</a>, <a href="https://www.youtube.com/c/theprimeagen" target=_blank>ThePrimagen</a>, <a href="https://www.youtube.com/@CharlesCornellStudios" target=_blank>Charles Cornell</a>, <a href="https://www.youtube.com/@veritasium" target=_blank>Veritasium</a></span><br>
-  <span>- Books: The Hitchhiker's Guide to the Galaxy, Dune, Anthologies by Ted Chiang</span><br>
+  <span>- Books: The Hitchhiker's Guide to the Galaxy, Dune, Stories of your Life and Others</span><br>
   <span>- Music: Jacob Collier, Anderson.paak, Vulfpeck, Coldplay, Jungle, Wes Montgomery</span><br>
   <span>- Films: The Matrix, Baby Driver, Whiplash</span>
 </div>
