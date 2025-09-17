@@ -3,6 +3,10 @@ layout: page
 title: PDF Storage
 ---
 
+<a href="/assets/files/lewisparadoxes.pdf" target=None>Lewis: Paradoxes of Time Travel</a><br>
+
+<a href="/assets/files/putnametime&geometry.pdf" target=None>Putnam: Time and Physical Geometry</a><br>
+
 <a href="/assets/files/jazz-handbook.pdf" target=None>Jazz Handbook</a><br>
 
 <a href="/assets/files/cantfindme.pdf" target=None>Can't Find Me</a><br>
