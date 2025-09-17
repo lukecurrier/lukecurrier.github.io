@@ -8,9 +8,9 @@ cover-img:
 ---
 ### Who?
 
-I’m 22 years old and work at Apple as a software engineer. I play in a band (guitar/vocals), compete in tennis tournaments in the socal area, and make a mean sticky toffee pudding. My academic focus at my alma mater Northeastern was AI and game theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent hard research time in philosophy, mathematics, and psychology as well. 
+I’m 22 years old and work at Apple as a software engineer. I play guitar, compete in tennis tournaments, write a lot of random code, and spend every possible second traveling to new places across the world. My academic focus at my alma mater Northeastern was AI and Game Theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent solid research time in philosophy, mathematics, and psychology as well. 
 
-I’ve done a few cool things in my professional life so far, such as owning a key product on a backend team doing Connected Devices at Apple, writing code for bidding on Google adwords at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
+I’ve done a number of cool things in my professional life so far, such as owning a core backend product for connected devices at Apple, writing code for bidding on Google ads at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a budding <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
 
 I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence. 
 
