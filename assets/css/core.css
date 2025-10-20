@@ -386,9 +386,6 @@ img {
 /* --- Footer --- */
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
