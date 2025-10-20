@@ -5,9 +5,7 @@ title: Guitar Scale Trainer
 
 {% include header.html type="page" %}
 
-<div
-  class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}"
->
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div id="mode-selection">
     <button id="random-mode">Random Scales</button>
     <button id="select-mode">Select a Scale</button>
@@ -29,13 +27,9 @@ title: Guitar Scale Trainer
 
   <div id="random-options">
     <div id="controls">
-      <label
-        >BPM: <input type="number" id="bpm" value="100" min="40" max="300"
-      /></label>
-      <label
-        >Duration (seconds):
-        <input type="number" id="timer-duration" value="120" min="10" max="600"
-      /></label>
+      <label>BPM: <input type="number" id="bpm" value="100" min="40" max="300" /></label>
+      <label>Duration (seconds):
+        <input type="number" id="timer-duration" value="120" min="10" max="600" /></label>
     </div>
 
     <div id="scale-selection">
@@ -249,8 +243,6 @@ title: Guitar Scale Trainer
       document.getElementById("random-mode").disabled = true;
       document.getElementById("select-options").style.display = "none";
       document.getElementById("random-options").style.display = "block";
-      document.getElementById("start-reset").textContent = "Start";
-      resetTimer();
     };
 
     document.getElementById("select-mode").onclick = function () {
@@ -258,6 +250,10 @@ title: Guitar Scale Trainer
       document.getElementById("select-mode").disabled = true;
       document.getElementById("random-options").style.display = "none";
       document.getElementById("select-options").style.display = "block";
+      isPlaying = false;
+      isMetronomePlaying = false;
+      document.getElementById("start-reset").textContent = "Start";
+      document.getElementById("skip").disabled = true;
       resetTimer();
     };
 
