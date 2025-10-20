@@ -1,0 +1,264 @@
+---
+layout: default
+title: Guitar Scale Trainer
+---
+
+{% include header.html type="page" %}
+
+<div
+  class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}"
+>
+  <div id="mode-selection">
+    <button id="random-mode">Random Scales</button>
+    <button id="select-mode">Select a Scale</button>
+  </div>
+
+  <div id="select-options">
+    <div class="carousel">
+      <button id="prev-key">◄</button>
+      <span id="selected-key">C</span>
+      <button id="next-key">►</button>
+    </div>
+    <div class="carousel">
+      <button id="prev-scale">◄</button>
+      <span id="selected-scale">Major</span>
+      <button id="next-scale">►</button>
+    </div>
+    <button id="show-practice">Show Scale</button>
+  </div>
+
+  <div id="random-options">
+    <div id="controls">
+      <label
+        >BPM: <input type="number" id="bpm" value="100" min="40" max="300"
+      /></label>
+      <label
+        >Duration (seconds):
+        <input type="number" id="timer-duration" value="120" min="10" max="600"
+      /></label>
+    </div>
+
+    <div id="scale-selection">
+      <button id="major">Major</button>
+      <button id="minor">Minor</button>
+      <button id="blues">Blues</button>
+      <button id="pentatonic">Pentatonic</button>
+      <button id="dorian">Dorian</button>
+      <button id="mixolodyian">Mixolodyian</button>
+    </div>
+
+    <div id="scale-display">
+      <div>
+        <button id="start-reset">Start</button>
+        <button id="skip">Skip</button>
+      </div>
+      <h3><span id="countdown">02:00</span></h3>
+    </div>
+  </div>
+
+  <div id="fretboard"></div>
+
+  <div id="scale-display">
+    <h3 id="current-scale"></h3>
+  </div>
+  <link rel="stylesheet" href="/assets/css/scales.css" />
+
+  <script src="/assets/js/fretboard.js"></script>
+  <script src="/assets/js/metronome.js"></script>
+  <script src="/assets/js/scales.js"></script>
+  <script>
+    buildFretboardGrid();
+
+    const scaleDisplay = document.getElementById("current-scale");
+
+    const observer = new MutationObserver(() => {
+      const scaleText = scaleDisplay.textContent;
+      if (scaleText && scaleText !== "") {
+        const { root, scaleName } = parseScaleName(scaleText);
+        const notes = buildScale(root, scaleName);
+        updateFretboard(notes, root);
+      }
+    });
+
+    observer.observe(scaleDisplay, {
+      characterData: true,
+      childList: true,
+      subtree: true,
+    });
+
+    let isPlaying = false;
+
+    document.getElementById("start-reset").onclick = () => {
+      if (!isPlaying) {
+        scaleSelections = [major, minor, blues, pentatonic, dorian, mixolydian];
+        pickNewScale(scaleSelections);
+        startTimer();
+
+        if (!audioCtx)
+          audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        nextNoteTime = audioCtx.currentTime;
+        isMetronomePlaying = true;
+        metronomeScheduler();
+
+        isPlaying = true;
+        document.getElementById("start-reset").textContent = "Reset";
+
+        document.getElementById("skip").disabled = false;
+      } else {
+        isPlaying = false;
+        isMetronomePlaying = false;
+        resetTimer();
+        buildFretboardGrid();
+        document.getElementById("start-reset").textContent = "Start";
+
+        document.getElementById("skip").disabled = true;
+      }
+    };
+
+    document.getElementById("skip").onclick = function () {
+      if (isPlaying) {
+        scaleSelections = [major, minor, blues, pentatonic, dorian, mixolydian];
+        pickNewScale(scaleSelections);
+        startTimer();
+      }
+    };
+
+    let major = true;
+    let minor = true;
+    let blues = true;
+    let pentatonic = true;
+    let dorian = false;
+    let mixolydian = false;
+
+    function updateButtonStyle(button, isActive) {
+      if (isActive) {
+        button.style.opacity = "1";
+        button.style.fontWeight = "bold";
+      } else {
+        button.style.opacity = "0.5";
+        button.style.fontWeight = "normal";
+      }
+    }
+
+    document.getElementById("major").onclick = function () {
+      major = !major;
+      updateButtonStyle(this, major);
+    };
+
+    document.getElementById("minor").onclick = function () {
+      minor = !minor;
+      updateButtonStyle(this, minor);
+    };
+
+    document.getElementById("blues").onclick = function () {
+      blues = !blues;
+      updateButtonStyle(this, blues);
+    };
+
+    document.getElementById("pentatonic").onclick = function () {
+      pentatonic = !pentatonic;
+      updateButtonStyle(this, pentatonic);
+    };
+
+    document.getElementById("dorian").onclick = function () {
+      dorian = !dorian;
+      updateButtonStyle(this, dorian);
+    };
+
+    document.getElementById("mixolodyian").onclick = function () {
+      mixolydian = !mixolydian;
+      updateButtonStyle(this, mixolydian);
+    };
+
+    updateButtonStyle(document.getElementById("dorian"), dorian);
+    updateButtonStyle(document.getElementById("mixolodyian"), mixolydian);
+
+    document.getElementById("skip").disabled = true;
+
+    // Practice Mode Carousel
+    const allKeys = [
+      "C",
+      "C#",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "Ab",
+      "A",
+      "Bb",
+      "B",
+    ];
+    const allScales = [
+      "Major",
+      "Minor",
+      "Blues",
+      "Pentatonic",
+      "Dorian",
+      "Mixolydian",
+    ];
+    let currentKeyIndex = 0;
+    let currentScaleIndex = 0;
+
+    const selectedKeyEl = document.getElementById("selected-key");
+    const selectedScaleEl = document.getElementById("selected-scale");
+
+    document.getElementById("prev-key").onclick = function () {
+      currentKeyIndex = (currentKeyIndex - 1 + allKeys.length) % allKeys.length;
+      selectedKeyEl.textContent = allKeys[currentKeyIndex];
+    };
+
+    document.getElementById("next-key").onclick = function () {
+      currentKeyIndex = (currentKeyIndex + 1) % allKeys.length;
+      selectedKeyEl.textContent = allKeys[currentKeyIndex];
+    };
+
+    document.getElementById("prev-scale").onclick = function () {
+      currentScaleIndex =
+        (currentScaleIndex - 1 + allScales.length) % allScales.length;
+      selectedScaleEl.textContent = allScales[currentScaleIndex];
+    };
+
+    document.getElementById("next-scale").onclick = function () {
+      currentScaleIndex = (currentScaleIndex + 1) % allScales.length;
+      selectedScaleEl.textContent = allScales[currentScaleIndex];
+    };
+
+    document.getElementById("show-practice").onclick = function () {
+      const practiceKey = allKeys[currentKeyIndex];
+      const practiceScale = allScales[currentScaleIndex];
+      const practiceScaleText = `${practiceKey} ${practiceScale}`;
+
+      displayScale.textContent = practiceScaleText;
+      const { root, scaleName } = parseScaleName(practiceScaleText);
+      const notes = buildScale(root, scaleName);
+      updateFretboard(notes, root);
+
+      if (isPlaying) {
+        isPlaying = false;
+        isMetronomePlaying = false;
+        resetTimer();
+        document.getElementById("start-reset").textContent = "Start";
+        document.getElementById("skip").disabled = true;
+      }
+    };
+
+    document.getElementById("random-mode").onclick = function () {
+      document.getElementById("select-mode").disabled = false;
+      document.getElementById("random-mode").disabled = true;
+      document.getElementById("select-options").style.display = "none";
+      document.getElementById("random-options").style.display = "block";
+    };
+
+    document.getElementById("select-mode").onclick = function () {
+      document.getElementById("random-mode").disabled = false;
+      document.getElementById("select-mode").disabled = true;
+      document.getElementById("random-options").style.display = "none";
+      document.getElementById("select-options").style.display = "block";
+    };
+
+    document.getElementById("select-options").style.display = "none";
+    document.getElementById("random-mode").disabled = true;
+  </script>
+</div>

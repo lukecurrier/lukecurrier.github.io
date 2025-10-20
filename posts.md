@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: Posts
 share-title: Posts
 ---

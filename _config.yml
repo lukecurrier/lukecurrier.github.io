@@ -9,6 +9,9 @@ navbar-links:
   Personal: "personal"
   Resume: "assets/files/resume.pdf"
 
+blog-navbar-links:
+  Home: "index"
+
 avatar: /assets/img/shoulders.png
 
 round-avatar: true
@@ -19,7 +22,7 @@ round-avatar: true
 social-network-links:
   email: "lukescurrier@gmail.com"
   github: lukecurrier
-  twitter: lukescurrier
+#  twitter: lukescurrier
   linkedin: lucas-saltonstall-currier
   instagram: currier_luke
 #  telephone: +16507395542
@@ -27,9 +30,9 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
-  linkedin: true
+  linkedin: false
   vk: false
 
 # for a link in the footer

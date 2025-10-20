@@ -1,0 +1,238 @@
+/* scales.css */
+
+#mode-selection {
+  text-align: center;
+}
+
+#mode-selection button {
+  padding: 4px 120px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #eae3cc;
+  color: #333;
+  border-color: #333;
+}
+
+#mode-selection button:not(:disabled) {
+  font-weight: 100;
+  border-color: #868383;
+}
+
+#select-options {
+  text-align: center;
+}
+
+#select-options button {
+  padding: 1px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #eae3cc;
+  color: #333;
+  border-color: #333;
+  margin-top: 10px;
+}
+
+#selected-key {
+  font-weight: 600;
+}
+
+#selected-scale {
+  font-weight: 600;
+}
+
+#show-practice {
+  padding: 8px 20px;
+  margin-top: 10px;
+  font-size: large;
+}
+
+#controls {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+#controls input[type="number"] {
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#start-reset {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  border-color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #eae3cc;
+  color: #333;
+}
+
+#skip {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  border-color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #eae3cc;
+  color: #333;
+}
+
+#skip:disabled {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+#scale-selection {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#scale-selection button {
+  padding: 6px 15px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 4px;
+  border-color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #eae3cc;
+  color: #333;
+}
+
+#scale-selection button:hover:not(:disabled) {
+  background: #efebdd;
+  border-color: #333;
+  transform: translateY(-1px);
+}
+
+#start-reset:hover:not(:disabled) {
+  background: #efebdd;
+  border-color: #333;
+  transform: translateY(-1px);
+}
+
+#start-reset:active:not(:disabled) {
+  transform: translateY(0);
+  border-color: #333;
+}
+
+#start-reset:disabled {
+  background: #333;
+  border-color: #333;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+#scale-display {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#current-scale {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  min-height: 1.2em;
+}
+
+#scale-display p {
+  font-size: 1.3em;
+  color: #666;
+  margin: 0;
+}
+
+#countdown {
+  font-weight: bold;
+  color: #444;
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
+.fretboard-grid {
+  display: grid;
+  grid-template-columns: repeat(13, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 3px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fret {
+  border: 2px solid #444;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: 600;
+  background: #f5f5f5;
+  color: #666;
+  transition: all 0.2s;
+  cursor: default;
+}
+
+.fret:hover {
+  border-color: #666;
+}
+
+.in-scale {
+  background: #659ba3;
+  color: white;
+  border-color: #444;
+  font-size: 1em;
+}
+
+.root {
+  background: #6dc394;
+  color: white;
+  font-weight: bold;
+  border-color: #444;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px rgba(230, 57, 70, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .fretboard-grid {
+    grid-template-columns: repeat(13, 40px);
+    grid-template-rows: repeat(6, 40px);
+    gap: 2px;
+  }
+
+  .fret {
+    font-size: 0.75em;
+  }
+
+  #current-scale {
+    font-size: 2em;
+  }
+
+  #controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

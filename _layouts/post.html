@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 ---
 
 {% include header.html type="post" %}
@@ -58,10 +58,6 @@ layout: base
             {% include {{ file }} %}
           {% endfor %}
         </div>
-      {% endif %}
-
-      {% if page.social-share %}
-        {% include social-share.html %}
       {% endif %}
 
       <ul class="pagination blog-pager">
