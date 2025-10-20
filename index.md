@@ -4,13 +4,19 @@ title: Hey, I'm Luke
 share-title: Home
 subtitle: And you've come to the right place.
 cover-img:
-  - "/assets/img/big-imgs/boys.jpg" : ""
+  - "/assets/img/home-carousel/clamber.png" : ""
+  - "/assets/img/home-carousel/wall.png" : ""
+  - "/assets/img/home-carousel/sail.png" : ""
+  - "/assets/img/home-carousel/skis.png" : ""
+  - "/assets/img/home-carousel/island.png" : ""
+  - "/assets/img/home-carousel/cliffs.png" : ""
+
 ---
 ### Who?
 
-I’m 22 years old and a software engineer at Apple. I play guitar, spend a lot of time outdoors, program cool things, and write a blog called <a href="https://buttersword.mataroa.blog" target=None>buttersword</a>. My academic focus at my alma mater Northeastern was AI and Game Theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent solid research time in philosophy, mathematics, and psychology as well. 
+I’m 22 years old and a software engineer at Apple. I program cool things, spend a lot of time outdoors, play guitar, and recently started writing a blog called <a href="https://buttersword.mataroa.blog" target=None>buttersword</a>. My academic focus at my alma mater Northeastern was AI and Game Theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent solid research time in philosophy, mathematics, and psychology as well. 
 
-I’ve done a number of cool things in my professional life so far, such as owning a core backend product for connected devices at Apple, writing code for bidding on Google ads at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a budding <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
+I’ve done a number of cool things in my professional life so far, such as owning a core backend product for connected devices at <u>Apple</u>, writing code for bidding on Google ads at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a budding <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
 
 I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence. 
 
