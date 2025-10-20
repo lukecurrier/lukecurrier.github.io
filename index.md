@@ -14,6 +14,10 @@ I’ve done a number of cool things in my professional life so far, such as owni
 
 I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence. 
 
+### A Note
+
+I just made a fun little project to help improve at guitar! Check it out <a href="/scales">here</a>. Will probably keep adding to it over time. 
+
 <div class="favorite-list">
   <span>Some favorites of mine:</span><br>
   <span>- Podcasts: <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank>Song Exploder</a>, <a href="https://open.spotify.com/show/11yAA5VXm0IJeZoKL4Fqah?si=2ac3b43752b84d2c" target=_blank>Money Stuff</a>, <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank>Dear Hank and John</a></span><br>
