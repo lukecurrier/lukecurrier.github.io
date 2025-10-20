@@ -249,6 +249,7 @@ title: Guitar Scale Trainer
       document.getElementById("random-mode").disabled = true;
       document.getElementById("select-options").style.display = "none";
       document.getElementById("random-options").style.display = "block";
+      resetTimer();
     };
 
     document.getElementById("select-mode").onclick = function () {
@@ -256,6 +257,7 @@ title: Guitar Scale Trainer
       document.getElementById("select-mode").disabled = true;
       document.getElementById("random-options").style.display = "none";
       document.getElementById("select-options").style.display = "block";
+      resetTimer();
     };
 
     document.getElementById("select-options").style.display = "none";
