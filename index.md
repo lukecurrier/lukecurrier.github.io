@@ -4,7 +4,12 @@ title: Hey, I'm Luke
 share-title: Home
 subtitle: And you've come to the right place.
 cover-img:
+  - "/assets/img/home-carousel/clamber.png" : ""
   - "/assets/img/home-carousel/wall.png" : ""
+  - "/assets/img/home-carousel/sail.png" : ""
+  - "/assets/img/home-carousel/skis.png" : ""
+  - "/assets/img/home-carousel/island.png" : ""
+  - "/assets/img/home-carousel/cliffs.png" : ""
 
 ---
 ### Who?
