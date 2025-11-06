@@ -4,6 +4,18 @@ layout: null
 
 /* --- General --- */
 
+.fav-img {
+  width: 120px; 
+  height: 120px; 
+  object-fit: cover;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.fav-img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
 html {
   font-size: 100%
 }

@@ -23,70 +23,34 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 
 ### Some Favorites of Mine:
 
-<div style="display: flex; gap: 20px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
-  <style>
-    .fav-img {
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
-    .fav-img:hover {
-      transform: scale(1.07);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
-    }
-  </style>
-  <a href="" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/coldplay.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="still woozy" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+<div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+  <a href="" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/coldplay.png" alt="coldplay"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="still woozy"  class="fav-img"></a>
   </div>
 
-<div style="display: flex; gap: 20px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
-  <style>
-    .fav-img {
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
-    .fav-img:hover {
-      transform: scale(1.07);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
-    }
-  </style>
-  <a href="" target=_blank><img src="/assets/img/favorites/rumours.png" alt="fleetwood mac" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/volcano.png" alt="jungle" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="u2" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/songexploder.png" alt="song exploder" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+<div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+  <a href="" target=_blank><img src="/assets/img/favorites/rumours.png" alt="fleetwood mac" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/volcano.png" alt="jungle" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="u2"class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/songexploder.png" alt="song exploder" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" class="fav-img"></a>
 </div>
 
-<div style="display: flex; gap: 20px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
-  <style>
-    .fav-img {
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
-    .fav-img:hover {
-      transform: scale(1.07);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
-    }
-  </style>
-  <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.png" alt="sebastian lague" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/prime.png" alt="theprimeagen" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+<div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+  <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" class="fav-img"></a>
+  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.png" alt="sebastian lague" class="fav-img"></a>
+  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/prime.png" alt="theprimeagen"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" class="fav-img"></a>
 </div>
 
-<div style="display: flex; gap: 20px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
-  <style>
-    .fav-img {
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-    }
-    .fav-img:hover {
-      transform: scale(1.07);
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
-    }
-  </style>
-  <a href="" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/matrix.png" alt="the matrix" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/astronaut.jpeg" alt="blank" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+<div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+  <a href="" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/matrix.png" alt="the matrix"  class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/astronaut.jpeg" alt="blank" class="fav-img"></a>
 </div>
