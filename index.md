@@ -18,11 +18,40 @@ I’m 22 years old and a software engineer at Apple. I program cool things, spen
 
 I’ve done a number of cool things in my professional life so far, such as owning a core backend product for connected devices at <u>Apple</u>, writing code for bidding on Google ads at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a budding <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
 
-I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. I also think it gave me a knack for asking good questions and an eye for excellence. 
+I was raised in Palo Alto as the oldest of four boys, surrounded by startup culture, which left me with a love for technology and a high level of independence. Over time, I've also developed a knack for asking good questions and an eye for excellence. 
 
 ### A Note
 
 I just made a fun little project to help improve at guitar! Check it out <a href="/scales">here</a>. Will probably keep adding to it over time. 
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+<hstack>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/djesse.png" alt="jacob collier" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/vulfpeck.png" alt="vulfpeck" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/ram.png" alt="daft punk" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/coldplay.png" alt="coldplay" style="width: 100px; height: 100px; object-fit: cover;"></a>
+</hstack>
+</div>
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+<hstack>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/songexploder.png" alt="song exploder" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/moneystuff.png" alt="money stuff" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/deargreens.png" alt="dear hank and john" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/lague.png" alt="sebastian lague" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/prime.png" alt="theprimeagen" style="width: 100px; height: 100px; object-fit: cover;"></a>
+</hstack>
+</div>
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+<hstack>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/dune.png" alt="dune" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/tron.png" alt="tron: legacy" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/whiplash.png" alt="whiplash" style="width: 100px; height: 100px; object-fit: cover;"></a>
+  <a href="https://open.spotify.com/show/10lMwCjvzLCLwth2AW6cLG?si=a00b3722090a4486" target=_blank><img src="/assets/img//favorites/arrival.png" alt="arrival" style="width: 100px; height: 100px; object-fit: cover;"></a>
+</hstack>
+</div>
 
 <div class="favorite-list">
   <span>Some favorites of mine:</span><br>
