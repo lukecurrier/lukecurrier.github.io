@@ -5,14 +5,14 @@ layout: null
 /* --- General --- */
 
 .fav-img {
-  width: 130px; 
-  height: 130px; 
+  width: 140px; 
+  height: 140px; 
   object-fit: cover;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .fav-img:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
