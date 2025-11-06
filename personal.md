@@ -8,8 +8,8 @@ subtitle: The many ways I fill my time
 
 <div style="text-align: righht;">
   <p>
-    <a href="/scales.md"><h2>Scales Trainer</h2></a>
-    This is a little thing I threw together in late 2025 to help me practice on the guitar! 
+    <a href="/scales"><h2>Scales Trainer</h2></a>
+    This is a little something I threw together in late 2025 to help me improve at guitar! 
   </p>
 </div>
 
@@ -18,7 +18,7 @@ subtitle: The many ways I fill my time
 <div style="text-align: left;">
   <p>
     <a href="/pages/dh"><h2>Distilled Harmony</h2></a>
-    As the bass for one of the coolest a cappella groups in Boston, I sing multiple times per week and collaborate with colleges across the Northeast with some of my best friends. 
+    I sang for three years in one of Boston's best a capella groups, competing and collaborating with colleges across the Northeast and making friends for life. Check us out <a href="https://open.spotify.com/artist/2oYLwmWHaHrK4suIVZh8SU?si=onWYwynpRKm06WwEnaS75A">here</a>. 
   </p>
 </div>
 
@@ -26,8 +26,8 @@ subtitle: The many ways I fill my time
 
 <div style="text-align: left;">
     <p>
-      <a href="/pages/ambassadors"><h2>Husky Ambassadors</h2></a>
-        My experience being a tour guide and student body representative at Northeastern as part of one of the most important student groups on campus. 
+      <a href="/pages/dtrd"><h2>Replicator Dynamics</h2></a>
+      In 2023, I created a program to simulate discrete-time replicator dynamics in Python based on outdated C++ and Java code with my favorite professor, <a href="https://cssh.northeastern.edu/faculty/rory-smead/" target=None>Rory Smead</a>. 
     </p>
   </div>
 
@@ -35,11 +35,19 @@ subtitle: The many ways I fill my time
 
 <div style="text-align: left;">
     <p>
-      <a href="/pages/dtrd"><h2>Replicator Dynamics</h2></a>
-      I created a program to simulate discrete-time replicator dynamics in Python based on outdated C++ and Java code as a personal research project with a favorite professor. 
+      <a href="/pages/ambassadors"><h2>Husky Ambassadors</h2></a>
+        I love talking and I love Northeastern, so being a tour guide was one of my favorite ways to spend time on campus. 
     </p>
   </div>
 
+***
+
+<div style="text-align: left;">
+  <p>
+    <a href="/pages/rossetti"><h2>Rossetti Research Group</h2></a>
+    My time in a multidisciplinary weekly reading group that provides access to research and project support, as well as an amazing community of hands-on philosophers. 
+  </p>
+</div>
 
 ***
 <!-- 
@@ -57,18 +65,11 @@ subtitle: The many ways I fill my time
   <div style="text-align: left;">
     <p>
       <a href="/pages/peercounsel"><h2>Peer Counseling</h2></a>
-      My high school senior project, in which I worked with professionals and friends to create a student support group and mental health initiative for the school. 
+      My focus in high school was mental health, and as my senior project I worked with professionals and friends to create a student support group and mental health initiative for the school. 
     </p>
   </div>
 
-***
 
-  <div style="text-align: left;">
-    <p>
-      <a href="/pages/rossetti"><h2>Rossetti Research Group</h2></a>
-      My time in a multidisciplinary weekly reading group that provides access to research and project support, as well as an amazing community of hands-on philosophers. 
-    </p>
-  </div>
 
 <!--  
 ***
