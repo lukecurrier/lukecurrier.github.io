@@ -24,22 +24,35 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 ### Some Favorites of Mine:
 
 <div style="display: flex; gap: 20px; padding: 20px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
-  <a href="" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/coldplay.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/rumours.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/volcano.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/songexploder.png" alt="song exploder" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.png" alt="sebastian lague" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/prime.png" alt="theprimeagen" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" style="width: 120px; height: 120px; object-fit: cover;"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" style="width: 120px; height: 120px; object-fit: cover;"></a>
+  <style>
+    .fav-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .fav-img:hover {
+      transform: scale(1.07);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+  <a href="" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/coldplay.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/rumours.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/volcano.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="coldplay" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/songexploder.png" alt="song exploder" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.png" alt="sebastian lague" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/prime.png" alt="theprimeagen" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" style="width: 120px; height: 120px; object-fit: cover;" class="fav-img"></a>
 </div>
