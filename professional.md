@@ -6,7 +6,7 @@ subtitle: Highlights of my professional career
 
 ***
 
-<a href="/pages/apple"><img src="/assets/img/apple.png" align="right" width="300" height="225"></a>
+<a href="/pages/apple"><img src="/assets/img/apple.png" align="right" width="300" height="150"></a>
 
 <div style="text-align: left;">
     <p>
