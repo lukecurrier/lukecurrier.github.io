@@ -23,7 +23,7 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 
 ### Some Favorites of Mine:
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; gap: 10; justify-content: center;">
   <a href="https://open.spotify.com/album/47bMDS4CMLbqcIVjEMWUjK?si=NqizWUDQS9K6rp_tmo3elg" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" class="fav-img"></a>
   <a href="https://open.spotify.com/album/7sRNEe2FCkTYhrEimChdkC?si=awE04utVSvu_WDaLU5zKhA" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck"  class="fav-img"></a>
   <a href="https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=pOyWFADQQ528Vpknsv_o1Q" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk"  class="fav-img"></a>
@@ -31,7 +31,7 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
   <a href="https://open.spotify.com/album/7oP7ABjXuVjSCiDexJ2bza?si=wFmCXTPAR7SYxrg13j-BBg" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="still woozy"  class="fav-img"></a>
   </div>
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; gap: 10; justify-content: center;">
   <a href="https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB?si=8akx4XHsRJWst18EiP3Ekw" target=_blank><img src="/assets/img/favorites/rumours.png" alt="fleetwood mac" class="fav-img"></a>
   <a href="https://open.spotify.com/album/5xnXOCf5aZgZ43DgGN4EDv?si=-cbOtJbwS0SClJTmkzSocg" target=_blank><img src="/assets/img/favorites/volcano.png" alt="jungle" class="fav-img"></a>
   <a href="https://open.spotify.com/album/5y6wlw1LnqFnQFruMeiwGU?si=rwe0MWYKQJ-HVm4PNSNTJA" target=_blank><img src="/assets/img/favorites/joshua.png" alt="u2" class="fav-img"></a>
@@ -39,7 +39,7 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
   <a href="https://open.spotify.com/show/11yAA5VXm0IJeZoKL4Fqah?si=33f5780c8be34a33" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" class="fav-img"></a>
 </div>
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; gap: 10; justify-content: center;">
   <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" class="fav-img"></a>
   <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.jpg" alt="sebastian lague" class="fav-img"></a>
   <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/primeagen.jpg" alt="theprimeagen"  class="fav-img"></a>
@@ -47,19 +47,10 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
   <a href="https://www.goodreads.com/book/show/44767458-dune" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" class="fav-img"></a>
 </div>
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; gap: 10; justify-content: center;">
   <a href="https://www.rottentomatoes.com/m/10011582-tron_legacy" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy"  class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/whiplash" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/arrival" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/matrix" target=_blank><img src="/assets/img/favorites/matrix.png" alt="the matrix"  class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/knives_out" target=_blank><img src="/assets/img/favorites/knives.png" alt="knives out" class="fav-img"></a>
 </div>
-
-
-<div style="display: flex; justify-content: center;">
-  <a href="https://open.spotify.com/album/47bMDS4CMLbqcIVjEMWUjK?si=NqizWUDQS9K6rp_tmo3elg" target=_blank><img src="/assets/img/favorites/djesse.png" alt="jacob collier" class="fav-img"></a>
-  <a href="https://open.spotify.com/album/7sRNEe2FCkTYhrEimChdkC?si=awE04utVSvu_WDaLU5zKhA" target=_blank><img src="/assets/img/favorites/vulfpeck.png" alt="vulfpeck"  class="fav-img"></a>
-  <a href="https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=pOyWFADQQ528Vpknsv_o1Q" target=_blank><img src="/assets/img/favorites/ram.png" alt="daft punk"  class="fav-img"></a>
-  <a href="https://open.spotify.com/album/2R7iJz5uaHjLEVnMkloO18?si=oqtglttGSU-HfOxnfPM9Gw" target=_blank><img src="/assets/img/favorites/coldplay.png" alt="coldplay"  class="fav-img"></a>
-  <a href="https://open.spotify.com/album/7oP7ABjXuVjSCiDexJ2bza?si=wFmCXTPAR7SYxrg13j-BBg" target=_blank><img src="/assets/img/favorites/loveseat.png" alt="still woozy"  class="fav-img"></a>
-  </div>
