@@ -6,6 +6,15 @@ subtitle: The many ways I fill my time
 
 ***
 
+<div style="text-align: righht;">
+  <p>
+    <a href="/scales.md"><h2>Scales Trainer</h2></a>
+    This is a little thing I threw together in late 2025 to help me practice on the guitar! 
+  </p>
+</div>
+
+***
+
 <div style="text-align: left;">
   <p>
     <a href="/pages/dh"><h2>Distilled Harmony</h2></a>
