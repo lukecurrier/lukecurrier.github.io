@@ -26,10 +26,6 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 <div style="display: flex; gap: 20px; padding: 20px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
   <style>
     .fav-img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 8px;
       transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
     .fav-img:hover {
