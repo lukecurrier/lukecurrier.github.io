@@ -5,8 +5,8 @@ layout: null
 /* --- General --- */
 
 .fav-img {
-  width: 120px; 
-  height: 120px; 
+  width: 130px; 
+  height: 130px; 
   object-fit: cover;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }

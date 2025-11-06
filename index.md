@@ -34,15 +34,15 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 <div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
   <a href="" target=_blank><img src="/assets/img/favorites/rumours.png" alt="fleetwood mac" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/volcano.png" alt="jungle" class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="u2"class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/joshua.png" alt="u2" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/songexploder.png" alt="song exploder" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/moneystuff.png" alt="money stuff" class="fav-img"></a>
 </div>
 
 <div style="display: flex; gap: 10px; padding: 15px; justify-content: center; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
   <a href="https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=a61aa06721564d05" target=_blank><img src="/assets/img/favorites/deargreens.png" alt="dear hank and john" class="fav-img"></a>
-  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.png" alt="sebastian lague" class="fav-img"></a>
-  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/prime.png" alt="theprimeagen"  class="fav-img"></a>
+  <a href="https://www.youtube.com/c/SebastianLague" target=_blank><img src="/assets/img/favorites/lague.jpg" alt="sebastian lague" class="fav-img"></a>
+  <a href="https://www.youtube.com/c/theprimeagen" target=_blank><img src="/assets/img/favorites/primeagen.jpg" alt="theprimeagen"  class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/hitchhiker.png" alt="hitchhiker's guide to the galaxy" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/dune.png" alt="dune" class="fav-img"></a>
 </div>
@@ -52,5 +52,5 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
   <a href="" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" class="fav-img"></a>
   <a href="" target=_blank><img src="/assets/img/favorites/matrix.png" alt="the matrix"  class="fav-img"></a>
-  <a href="" target=_blank><img src="/assets/img/astronaut.jpeg" alt="blank" class="fav-img"></a>
+  <a href="" target=_blank><img src="/assets/img/favorites/knives.png" alt="knives out" class="fav-img"></a>
 </div>
