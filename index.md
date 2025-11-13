@@ -50,7 +50,7 @@ I was raised in Palo Alto as the oldest of four boys, surrounded by startup cult
 <div style="display: flex; gap: 10; justify-content: center;">
   <a href="https://www.rottentomatoes.com/m/10011582-tron_legacy" target=_blank><img src="/assets/img/favorites/tron.png" alt="tron: legacy"  class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/whiplash" target=_blank><img src="/assets/img/favorites/whiplash.png" alt="whiplash" class="fav-img"></a>
-  <a href="https://www.rottentomatoes.com/m/arrival" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" class="fav-img"></a>
+  <a href="https://www.rottentomatoes.com/m/arrival_2016" target=_blank><img src="/assets/img/favorites/arrival.png" alt="arrival" class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/matrix" target=_blank><img src="/assets/img/favorites/matrix.png" alt="the matrix"  class="fav-img"></a>
   <a href="https://www.rottentomatoes.com/m/knives_out" target=_blank><img src="/assets/img/favorites/knives.png" alt="knives out" class="fav-img"></a>
 </div>
