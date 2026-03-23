@@ -12,7 +12,7 @@ subtitle: Highlights of my professional career
     <p>
       <a href="/pages/apple"><h2>Apple</h2></a>
       <b>June 2025 - Present</b> <br> <b><i>Software Engineer</i></b><br>
-      I own a core automation product for Apple's backend connected devices team, working on early-stage pathways for anything involving devices communicating with each other. 
+      I own a core automation product for Apple's backend connected devices team and run operations for AI in internal engineering. 
     </p>
   </div>
 

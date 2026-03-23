@@ -32,24 +32,6 @@ subtitle: The many ways I fill my time
   </div>
 
 ***
-
-<div style="text-align: left;">
-    <p>
-      <a href="/pages/ambassadors"><h2>Husky Ambassadors</h2></a>
-        I love talking and I love Northeastern, so being a tour guide was one of my favorite ways to spend time on campus. 
-    </p>
-  </div>
-
-***
-
-<div style="text-align: left;">
-  <p>
-    <a href="/pages/rossetti"><h2>Rossetti Research Group</h2></a>
-    My time in a multidisciplinary weekly reading group that provides access to research and project support, as well as an amazing community of hands-on philosophers. 
-  </p>
-</div>
-
-***
 <!-- 
 <div style="text-align: left;">
     <p>
@@ -61,15 +43,6 @@ subtitle: The many ways I fill my time
   ***
 
 -->
-
-  <div style="text-align: left;">
-    <p>
-      <a href="/pages/peercounsel"><h2>Peer Counseling</h2></a>
-      My focus in high school was mental health, and as my senior project I worked with professionals and friends to create a student support group and mental health initiative for the school. 
-    </p>
-  </div>
-
-
 
 <!--  
 ***
