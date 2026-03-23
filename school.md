@@ -5,7 +5,7 @@ subtitle: My academic journey so far
 ---
 ***
 
-<a href="/pages/neu"><img src="/assets/img/neucircle.png" align="right" width="175" height="175"></a>
+<a href="/pages/neu"><img src="/assets/img/neucircle.png" class="img-float-right" width="175" height="175" loading="lazy"></a>
 
   <div style="text-align: left;">
     <p>
@@ -19,7 +19,7 @@ subtitle: My academic journey so far
 
 ***
 
-<a href="/pages/uts"><img src="/assets/img/uts.png" align="left" width="175" height="150"></a>
+<a href="/pages/uts"><img src="/assets/img/uts.png" class="img-float-left" width="175" height="150" loading="lazy"></a>
 
   <div style="text-align: right;">
     <p>
@@ -32,7 +32,7 @@ subtitle: My academic journey so far
 
 ***
 
-<a href="/pages/ucd"><img src="/assets/img/ucd.png" align="right" width="120" height="140"></a>
+<a href="/pages/ucd"><img src="/assets/img/ucd.png" class="img-float-right" width="120" height="140" loading="lazy"></a>
 
   <div style="text-align: left;">
     <p>
@@ -45,7 +45,7 @@ subtitle: My academic journey so far
 
 ***
 
-<a href="/pages/wps"><img src="/assets/img/priorycircle.png" align="left" width="140" height="140"></a>
+<a href="/pages/wps"><img src="/assets/img/priorycircle.png" class="img-float-left" width="140" height="140" loading="lazy"></a>
 
   <div style="text-align: right;">
     <p>
