@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   
 
   
@@ -29,30 +32,28 @@
   
     
       
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
 
     
       
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
     
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 
 
     
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
 
 
     
   
 
   
-    
-      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
     
       <link rel="stylesheet" href="/assets/css/core.css">
     
@@ -84,8 +85,7 @@
   
   <meta name="twitter:card" content="summary">
   
-  <meta name="twitter:site" content="@">
-  <meta name="twitter:creator" content="@">
+  
 
   <meta property="twitter:title" content="Work History">
   <meta property="twitter:description" content="Highlights of my professional career">
@@ -103,33 +103,32 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/" style="text-decoration: none;">Luke Currier</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Luke Currier</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/index" style="text-decoration: none;">Home</a>
+            <a class="nav-link" href="/index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/school" style="text-decoration: none;">Education</a>
+            <a class="nav-link" href="/school">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/professional" style="text-decoration: none;">Professional</a>
+            <a class="nav-link" href="/professional">Professional</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/personal" style="text-decoration: none;">Personal</a>
+            <a class="nav-link" href="/personal">Personal</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/assets/files/resume.pdf" style="text-decoration: none;">Resume</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <span id="nav-search-icon" class="fa fa-search"></span>
-            <span id="nav-search-text">Search</span>
-          </a>
-        </li></ul>
+            <a class="nav-link" href="/assets/files/resume.pdf">Resume</a>
+          </li><li class="nav-item">
+        <a class="nav-link" id="dark-mode-toggle" href="#" title="Toggle dark mode">
+          <span class="fa fa-moon"></span>
+        </a>
+      </li>
+    </ul>
   </div>
 
   
@@ -145,246 +144,6 @@
   
 
 </nav>
-
-
-
-<div id="search-overlay">
-
-  <div id="nav-search-exit" title="Exit search">✕</div>
-  <input type="text" id="nav-search-input" placeholder="Search">
-  <ul id="search-results-container"></ul>
-  
-  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-  <script>
-    var searchjson = '[ \
-       \
-        { \
-          "title"    : "It&#39;s Monday Again", \
-          "desc"     : "It&#39;s Monday Again", \
-          "category" : "", \
-          "url"      : "/2025-02-24-its-monday-again/", \
-          "date"     : "February 24, 2025" \
-        }, \
-       \
-       \
-        { \
-          "title"    : "Being a Husky Ambassador", \
-          "desc"     : "Being a Husky Ambassador", \
-          "category" : "page", \
-          "url"      : "/pages/ambassadors/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Apple", \
-          "desc"     : "Apple", \
-          "category" : "page", \
-          "url"      : "/pages/apple/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Boom Capital Ventures", \
-          "desc"     : "Boom Capital Ventures", \
-          "category" : "page", \
-          "url"      : "/pages/boom/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Distilled Harmony", \
-          "desc"     : "Distilled Harmony", \
-          "category" : "page", \
-          "url"      : "/pages/dh/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Replicator Dynamics", \
-          "desc"     : "Replicator Dynamics", \
-          "category" : "page", \
-          "url"      : "/pages/dtrd/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Forex ML Analysis", \
-          "desc"     : "Forex ML Analysis", \
-          "category" : "page", \
-          "url"      : "/pages/forex/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Hey, I&#39;m Luke", \
-          "desc"     : "Hey, I&#39;m Luke", \
-          "category" : "page", \
-          "url"      : "/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "LearnPrompting", \
-          "desc"     : "LearnPrompting", \
-          "category" : "page", \
-          "url"      : "/pages/lp/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "My Music", \
-          "desc"     : "My Music", \
-          "category" : "page", \
-          "url"      : "/pages/music/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Northeastern University", \
-          "desc"     : "Northeastern University", \
-          "category" : "page", \
-          "url"      : "/pages/neu/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "OutsideLLMS", \
-          "desc"     : "OutsideLLMS", \
-          "category" : "page", \
-          "url"      : "/pages/ollms/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Peer Counselling", \
-          "desc"     : "Peer Counselling", \
-          "category" : "page", \
-          "url"      : "/pages/peercounsel/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Personal Projects", \
-          "desc"     : "Personal Projects", \
-          "category" : "page", \
-          "url"      : "/personal/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Posts", \
-          "desc"     : "Posts", \
-          "category" : "page", \
-          "url"      : "/posts/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Work History", \
-          "desc"     : "Work History", \
-          "category" : "page", \
-          "url"      : "/professional/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Rossetti Research Group", \
-          "desc"     : "Rossetti Research Group", \
-          "category" : "page", \
-          "url"      : "/pages/rossetti/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Scales Trainer", \
-          "desc"     : "Scales Trainer", \
-          "category" : "page", \
-          "url"      : "/scales/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Education", \
-          "desc"     : "Education", \
-          "category" : "page", \
-          "url"      : "/school/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "PDF Storage", \
-          "desc"     : "PDF Storage", \
-          "category" : "page", \
-          "url"      : "/storage/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Teaching Logic", \
-          "desc"     : "Teaching Logic", \
-          "category" : "page", \
-          "url"      : "/pages/ta/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Scales Trainer", \
-          "desc"     : "Scales Trainer", \
-          "category" : "page", \
-          "url"      : "/testscales/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Travel", \
-          "desc"     : "Travel", \
-          "category" : "page", \
-          "url"      : "/pages/travel/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "University College Dublin", \
-          "desc"     : "University College Dublin", \
-          "category" : "page", \
-          "url"      : "/pages/ucd/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "University of Technology Sydney", \
-          "desc"     : "University of Technology Sydney", \
-          "category" : "page", \
-          "url"      : "/pages/uts/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Wayfair", \
-          "desc"     : "Wayfair", \
-          "category" : "page", \
-          "url"      : "/pages/wayfair/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Woodside Priory", \
-          "desc"     : "Woodside Priory", \
-          "category" : "page", \
-          "url"      : "/pages/wps/", \
-          "date"     : "January 1, 1970" \
-        } \
-       \
-    ]';
-    searchjson = JSON.parse(searchjson);
-
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('nav-search-input'),
-      resultsContainer: document.getElementById('search-results-container'),
-      json: searchjson
-    });
-  </script>
-</div>
 
 
 
@@ -433,19 +192,19 @@
 
       <hr />
 
-<p><a href="/pages/apple"><img src="/assets/img/apple.jpg" align="right" width="300" height="225" /></a></p>
+<p><a href="/pages/apple"><img src="/assets/img/apple.png" class="img-float-right" width="255" height="170" loading="lazy" /></a></p>
 
 <div style="text-align: left;">
     <p>
       <a href="/pages/apple"><h2>Apple</h2></a>
       <b>June 2025 - Present</b> <br /> <b><i>Software Engineer</i></b><br />
-      I own a core automation product for Apple's backend connected devices team, working on early-stage pathways for anything involving devices communicating with each other. 
+      I own a core automation product for Apple's backend connected devices team and run operations for AI in internal engineering.
     </p>
   </div>
 
 <hr />
 
-<p><a href="/pages/wayfair"><img src="/assets/img/wayfair.png" align="left" width="400" height="100" /></a></p>
+<p><a href="/pages/wayfair"><img src="/assets/img/wayfair.png" class="img-float-left" width="400" height="100" loading="lazy" /></a></p>
 
 <div style="text-align: right;">
     <p>
@@ -457,7 +216,7 @@
 
 <hr />
 
-<p><a href="/pages/boom"><img src="/assets/img/boom.png" align="right" width="300" height="225" /></a></p>
+<p><a href="/pages/boom"><img src="/assets/img/boom.png" class="img-float-right" width="300" height="225" loading="lazy" /></a></p>
 
 <div style="text-align: left;">
     <p>
@@ -469,37 +228,37 @@
 
 <hr />
 
-<p><a href="/pages/ollms"><img src="/assets/img/ollms.PNG" align="left" width="340" height="210" /></a></p>
+<p><a href="/pages/ollms"><img src="/assets/img/ollms.PNG" class="img-float-left" width="340" height="210" loading="lazy" /></a></p>
 
 <div style="text-align: right;">
     <p>
       <a href="/pages/ollms"><h2>OutsideLLMs Hackathon</h2></a>
       <b>August 2023</b> <br /> <b><i>Volunteer</i></b><br />
-        Ran a 250-person Music x AI hackathon in concert with <a href="https://cerebralvalley.ai/" target="None">Cerebral Valley</a>. Coordinated hundreds of developers, communicated with sponsors, and helped with on-site operations. 
+        Ran a 250-person Music x AI hackathon in concert with <a href="https://cerebralvalley.ai/" target="_blank" rel="noopener noreferrer">Cerebral Valley</a>. Coordinated hundreds of developers, communicated with sponsors, and helped with on-site operations.
     </p>
   </div>
 
 <hr />
 
-<p><a href="/pages/lp"><img src="/assets/img/astronaut.jpeg" align="right" width="212" height="212" /></a></p>
+<p><a href="/pages/lp"><img src="/assets/img/astronaut.jpeg" class="img-float-right" width="212" height="212" loading="lazy" /></a></p>
 
 <div style="text-align: left;">
     <p>
       <a href="/pages/lp"><h2>LearnPrompting</h2></a>
       <b>January 2023 - May 2023</b> <br /> <b><i>Contributor/Moderator</i></b><br />
-      Was one of eight original moderators and content creators for the LearnPrompting community, a massive free online learning resource for prompt engineers. Created prompts, wrote articles, and built 40,000 person community. 
+      Was one of eight original moderators and content creators for the LearnPrompting community, a massive free online learning resource for prompt engineers. Created prompts, wrote articles, and built 40,000 person community.
     </p>
   </div>
 
 <hr />
 
-<p><a href="/pages/ta"><img src="/assets/img/neucircle.png" align="left" width="210" height="210" /></a></p>
+<p><a href="/pages/ta"><img src="/assets/img/neucircle.png" class="img-float-left" width="210" height="210" loading="lazy" /></a></p>
 
 <div style="text-align: right;">
     <p>
       <a href="/pages/ta"><h2>Northeastern University</h2></a>
       <b>January 2023 - May 2023 <br /> <i>Teaching Assistant</i></b><br />
-      Was selected by the philosophy department head as one of two TAs for Intro to Logic, his ~100 person class. Graded assignments, held office hours, and led study sessions for students. 
+      Was selected by the philosophy department head as one of two TAs for Intro to Logic, his ~100 person class. Graded assignments, held office hours, and led study sessions for students.
     </p>
   </div>
 
@@ -521,7 +280,7 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Email me</span>
+      <span class="visually-hidden">Email me</span>
    </a>
   </li><li class="list-inline-item">
     <a href="https://github.com/lukecurrier" title="GitHub" target="_blank">
@@ -529,7 +288,7 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">GitHub</span>
+      <span class="visually-hidden">GitHub</span>
    </a>
   </li><li class="list-inline-item">
     <a href="https://linkedin.com/in/lucas-saltonstall-currier" title="LinkedIn" target="_blank">
@@ -537,7 +296,7 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">LinkedIn</span>
+      <span class="visually-hidden">LinkedIn</span>
    </a>
   </li><li class="list-inline-item">
     <a href="https://www.instagram.com/currier_luke" title="Instagram" target="_blank">
@@ -545,7 +304,7 @@
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Instagram</span>
+      <span class="visually-hidden">Instagram</span>
    </a>
   </li></ul>
 
@@ -555,7 +314,7 @@
         Luke Currier
         &nbsp;&bull;&nbsp;
       
-      2025
+      2026
 
       
 
@@ -574,17 +333,7 @@
   
   
     
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-
-
-  
-    
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-
-  
-    
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
   
@@ -592,10 +341,7 @@
 
 
   
-    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
-    
-      <script src="/assets/js/interaction.js"></script>
-    
+    <script src="/assets/js/interaction.js"></script>
   
 
 
