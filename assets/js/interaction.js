@@ -205,7 +205,7 @@ let InteractionJS = {
     // Update mobile theme-color meta tag
     const metaThemeColor = document.querySelector('meta[name="theme-color"]');
     if (metaThemeColor) {
-      metaThemeColor.setAttribute('content', theme === 'dark' ? '#16213e' : '{{ site.mobile-theme-col | default: "#738573" }}');
+      metaThemeColor.setAttribute('content', theme === 'dark' ? '#242424' : '{{ site.mobile-theme-col | default: "#738573" }}');
     }
   }
 };

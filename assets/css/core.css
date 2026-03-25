@@ -17,17 +17,17 @@ layout: null
 }
 
 [data-bs-theme="dark"] {
-  --page-col: #1a1a2e;
-  --text-col: #e0e0e0;
-  --link-col: #82b1ff;
-  --hover-col: #40c4ff;
-  --navbar-col: #16213e;
-  --navbar-text-col: #e0e0e0;
-  --navbar-border-col: #2a2a4a;
-  --footer-col: #16213e;
-  --footer-text-col: #b0b0b0;
-  --footer-link-col: #e0e0e0;
-  --footer-hover-col: #40c4ff;
+  --page-col: #161616;
+  --text-col: #d6d6d6;
+  --link-col: #7aafe0;
+  --hover-col: #a0cbee;
+  --navbar-col: #242424;
+  --navbar-text-col: #d6d6d6;
+  --navbar-border-col: #3a3a3a;
+  --footer-col: #1e1e1e;
+  --footer-text-col: #909090;
+  --footer-link-col: #d6d6d6;
+  --footer-hover-col: #a0cbee;
 }
 
 /* --- General --- */
@@ -731,6 +731,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 6.25rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
+  position: relative;
+  z-index: 1;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;

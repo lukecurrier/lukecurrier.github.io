@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+<div class="container-xl">
 
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
@@ -42,6 +43,7 @@
       </li>
     </ul>
   </div>
+</div>
 </nav>
 
 {% include search.html %}
