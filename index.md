@@ -14,7 +14,7 @@ cover-img:
 ---
 ### Who?
 
-I'm 23 years old and a software engineer at Apple. I program cool things, spend a lot of time outdoors, play guitar in a couple of bands, and occasionally chat about random topics on my blog <a href="https://buttersword.mataroa.blog" target="_blank" rel="noopener noreferrer">buttersword</a>. My academic focus at my alma mater Northeastern was AI and Game Theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent solid time in philosophy, mathematics, and psychology as well.
+I'm 23 years old and a software engineer at Apple. I program cool things, spend a lot of time outdoors, play guitar in a couple of bands, and occasionally chat about random topics on my blog <a href="https://buttersword.substack.com" target="_blank" rel="noopener noreferrer">buttersword</a>. My academic focus at my alma mater Northeastern was AI and Game Theory, but I took inspiration from Stanford's symbolic systems program in my major design, meaning I've spent solid time in philosophy, mathematics, and psychology as well.
 
 I've done a number of cool things in my professional life so far, such as owning a core backend product for connected devices at <a href="https://www.apple.com" target="_blank" rel="noopener noreferrer">Apple</a>, writing code for bidding on Google ads at <a href="/pages/wayfair">Wayfair</a> on a team that brought in over $5M/day, helping source biotech startups for a budding <a href="/pages/boom">venture capital firm</a>, and running AI events in <a href="/pages/ollms">San Francisco</a> and New York City. Even as the most junior guy, I'm used to coming in low and rapidly ramping up my responsibilities by being fast and dependable.
 
