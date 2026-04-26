@@ -6,6 +6,15 @@ subtitle: The many ways I fill my time
 
 ***
 
+<div style="text-align: left;">
+  <p>
+    <a href="https://substack.com/@lukecurrier" target=None><h2>Buttersword</h2></a>
+    My blog - drop a follow if you like quotes and the occasional interesting take on culture/tech/life! 
+  </p>
+</div>
+
+***
+
 <div style="text-align: right;">
   <p>
     <a href="/scales"><h2>Scales Trainer</h2></a>
@@ -24,7 +33,7 @@ subtitle: The many ways I fill my time
 
 ***
 
-<div style="text-align: left;">
+<div style="text-align: right;">
     <p>
       <a href="/pages/dtrd"><h2>Replicator Dynamics</h2></a>
       In 2023, I created a program to simulate discrete-time replicator dynamics in Python based on outdated C++ and Java code with my favorite professor, <a href="https://cssh.northeastern.edu/faculty/rory-smead/" target="_blank" rel="noopener noreferrer">Rory Smead</a>. 
