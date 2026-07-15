@@ -12,14 +12,14 @@ subtitle: My academic journey so far
       <a href="/pages/neu"><h2>Northeastern University</h2></a>
       <b><i>BS in Computer Science and Philosophy</i></b><br>
       3.87 GPA, Dean's List, Northeastern Honors Society<br>
-      <i>Activities:</i> <a href="/pages/dh">A Cappella</a>, Ultimate Frisbee, <a href="/pages/ambassadors">Husky Ambassadors</a>, <a href="/pages/rossetti">Rossetti Research Group</a><br>
+      <i>Activities:</i> <a href="/pages/dh">A Cappella</a>, Ultimate Frisbee, <a href="/pages/ambassadors">Husky Ambassadors</a>, <a href="/pages/rossetti">Rossetti Group</a><br>
       <i>Focused Classes:</i> Algorithms (Graduate), Engineering LLM-Integrated Systems, Trustworthy Generative AI, Object-Oriented Design<br>
     </p>
   </div>
 
 ***
 
-<a href="/pages/uts"><img src="/assets/img/uts.png" class="img-float-left" width="175" height="150" loading="lazy"></a>
+<a href="/pages/uts"><img src="/assets/img/uts.png" class="img-float-left" width="150" height="140" loading="lazy"></a>
 
   <div style="text-align: right;">
     <p>

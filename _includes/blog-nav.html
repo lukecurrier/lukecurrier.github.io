@@ -13,7 +13,12 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ms-auto">
-      {%- for link in site.blog-navbar-links -%}
+      {% if page.url contains '/pages/' or page.path contains 'pages/' %}
+        {% assign navbar_source = site.navbar-links %}
+      {% else %}
+        {% assign navbar_source = site.blog-navbar-links | default: site.navbar-links %}
+      {% endif %}
+      {%- for link in navbar_source -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ link[0] }}</a>
@@ -26,6 +31,9 @@
             </div>
           </li>
         {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+          </li>
         {%- endif -%}
       {%- endfor -%}
       {% if site.post_search %}

@@ -467,6 +467,21 @@ footer .list-inline {
   padding: 0;
   margin-bottom: 1.875rem;
 }
+footer .footer-links .fa-stack-2x {
+  color: var(--footer-link-col);
+}
+footer .footer-links .fa-stack .fa-inverse {
+  color: rgba(245, 241, 233, 0.971);
+}
+[data-bs-theme="dark"] footer .footer-links .fa-stack-2x {
+  color: #3c3c3c;
+}
+[data-bs-theme="dark"] footer .footer-links .fa-stack .fa-inverse {
+  color: var(--hover-col) !important;
+}
+footer .footer-links a:hover .fa-stack-2x {
+  color: var(--footer-hover-col);
+}
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
